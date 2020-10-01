@@ -2,7 +2,7 @@
 name: Fehlermeldung
 about: Hier kannst du Fehler melden
 title: ''
-labels: ''
+labels: Waiting for Triage
 assignees: ''
 
 ---
