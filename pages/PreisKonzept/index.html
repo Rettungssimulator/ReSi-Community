@@ -1,0 +1,130 @@
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <title>Vergütungsberechnung</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!--<script src="js/jquery.js"></script>-->
+
+    <script>
+        /*let a = [];
+        for (let i in vehicleCategories){
+            a[i] = vehicleCategories[i].name
+        }*/
+    </script>
+</head>
+<body>
+    <div class="jumbotron">
+        <h1 class="display-4">Vergütungsberechnung</h1>
+        <table id="output" class="table table-striped table-bordered table-hover">
+            <thead><tr><th>Name</th><th>Anforderungen</th><th>Vergütung (aktuell)</th><th>Vergütung (neu)</th></tr></thead>
+            <tbody></tbody>
+        </table>
+        <hr>
+        <div id="inputContainer" class="row">
+
+        </div>
+    </div>
+    <script>
+        let missions;
+
+        const vehicleCategories = {
+            "dlk": "Drehleiter",
+            "dlk_tmf": "Hubrettungsfahrzeug",
+            "elw1": "Einsatzleitwagen",
+            "elw1_kdow": "ELW oder KdoW",
+            "gw_g": "Gerätewagen Gefahrgut",
+            "gw_tier": "Gerätewagen Tierrettung",
+            "gw_tier_lf": "GW-Tier oder LF",
+            "hlf": "Hilfeleistungslöschgruppenfahrzeug",
+            "kdow": "Kommandowagen",
+            "lf": "Löschgruppenfahrzeug",
+            "mtw": "Mannschaftstransportwagen",
+            "rw": "Rüstwagen",
+            "rw_hlf": "RW oder HLF",
+            "rw_lf": "RW oder (H)LF",
+            "sonstiges": "sonstige Fahrzeuge",
+            "tlf": "Tanklöschfahrzeug",
+            "tmf": "Teleskopmastfahrzeug",
+        };
+
+        let vehicleCredits = {
+            "dlk": 100,
+            "dlk_tmf": 100,
+            "elw1": 100,
+            "elw1_kdow": 100,
+            "gw_g": 100,
+            "gw_tier": 100,
+            "gw_tier_lf": 100,
+            "hlf": 100,
+            "kdow": 100,
+            "lf": 100,
+            "mtw": 100,
+            "rw": 100,
+            "rw_hlf": 100,
+            "rw_lf": 100,
+            "sonstiges": 100,
+            "tlf": 100,
+            "tmf": 100,
+        }
+
+        /**
+         * updates the value table
+         */
+        function printTable(){
+            let html = "<table>";
+            for(let mission of missions){
+                let neededVehicles = [];
+                for(let vehicleCategory in mission.neededVehicles){
+                    neededVehicles.push(`${vehicleCategories[vehicleCategory]}: ${mission.neededVehicles[vehicleCategory]}`)
+
+                }
+                html += `<tr><td>${mission.name}</td><td>${neededVehicles.join(", ")}</td><td>${mission.credits}</td><td>${calculateCredits(mission.neededVehicles)}</td></tr>`;
+            }
+            html += "</table>";
+            $("#output tbody").html(html);
+        }
+
+        /**
+         * calculates the credits of the mission with the vehicleCredits factor
+         * @param neededVehicles{{}}
+         * @returns {number}
+         */
+        function calculateCredits(neededVehicles){
+            let credits = 0;
+            for (let vehicle in neededVehicles){
+                credits += neededVehicles[vehicle] * vehicleCredits[vehicle];
+            }
+            return credits;
+        }
+
+        $(() => {
+            $.getJSON("json/missions.json", response => {
+                missions = response;
+                printTable();
+            });
+
+            for(let vehicleCategory in vehicleCategories){
+                $("#inputContainer").append(`<div class="input-group mb-3 col-4">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="input${vehicleCategory}">${vehicleCategories[vehicleCategory]}</span>
+                    </div>
+                <input type="text" class="form-control" placeholder="Münzen" aria-label="Münzen" aria-describedby="input${vehicleCategory}" value="${vehicleCredits[vehicleCategory]}" vehiclecategory="${vehicleCategory}">
+                </div>`);
+            }
+
+            $(document).on("change", "[vehiclecategory]", e => {
+                let vehicleCategory = $(e.currentTarget).attr("vehiclecategory");
+                let value = parseInt($(e.currentTarget).val());
+                if(vehicleCategory in vehicleCategories){
+                    vehicleCredits[vehicleCategory] = value;
+                    printTable();
+                }else {
+                    alert("Es ist ein Fehler aufgetreten");
+                }
+            })
+        });
+    </script>
+</body>
+</html>

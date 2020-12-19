@@ -1,0 +1,1076 @@
+[
+    {
+        "id": 0,
+        "name": "Mülleimerbrand",
+        "fireValue": 300,
+        "credits": 600,
+        "icon": "fire",
+        "neededVehicles": {
+            "lf": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "0",
+            "1"
+        ]
+    },
+    {
+        "id": 1,
+        "name": "Brennender PKW",
+        "fireValue": 400,
+        "credits": 800,
+        "icon": "carFire",
+        "neededVehicles": {
+            "lf": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "2",
+            "9",
+            "16"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Straße unter Wasser",
+        "fireValue": 350,
+        "credits": 700,
+        "icon": "streetFlood",
+        "neededVehicles": {
+            "lf": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "3",
+            "18"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Brennender Sperrmüll",
+        "fireValue": 350,
+        "credits": 700,
+        "icon": "bulkyWasteFire",
+        "neededVehicles": {
+            "lf": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "4",
+            "5",
+            "6",
+            "10",
+            "17"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Keller unter Wasser",
+        "fireValue": 350,
+        "credits": 700,
+        "icon": "flood",
+        "neededVehicles": {
+            "lf": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "7",
+            "8"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Baum auf Straße",
+        "fireValue": 400,
+        "credits": 800,
+        "icon": "treeOnStreet",
+        "neededVehicles": {
+            "rw_lf": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Person in Aufzug",
+        "fireValue": 300,
+        "credits": 600,
+        "icon": "elevator",
+        "neededVehicles": {
+            "lf": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "19",
+            "20"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Brennendes Gebüsch",
+        "fireValue": 350,
+        "credits": 700,
+        "icon": "bushFire",
+        "neededVehicles": {
+            "lf": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "21",
+            "22",
+            "23",
+            "24",
+            "25"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Brennender Papiercontainer",
+        "fireValue": 300,
+        "credits": 600,
+        "icon": "paperContainerFire",
+        "neededVehicles": {
+            "lf": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "26",
+            "27",
+            "28",
+            "29"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Kleine Ölspur",
+        "fireValue": 350,
+        "credits": 700,
+        "icon": "oilTrack",
+        "neededVehicles": {
+            "lf": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "30",
+            "31",
+            "32",
+            "33"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Brennender Benzinkanister",
+        "fireValue": 250,
+        "credits": 500,
+        "icon": "fire",
+        "neededVehicles": {
+            "lf": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "34",
+            "35",
+            "36"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Brennender Altkleidercontainer",
+        "fireValue": 300,
+        "credits": 600,
+        "icon": "fire",
+        "neededVehicles": {
+            "lf": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "37",
+            "38",
+            "39",
+            "40"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Brennende Bushaltestelle",
+        "fireValue": 300,
+        "credits": 600,
+        "icon": "fire",
+        "neededVehicles": {
+            "lf": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "41",
+            "42",
+            "118"
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Brennender Müllwagen",
+        "fireValue": 600,
+        "credits": 1200,
+        "icon": "fire",
+        "neededVehicles": {
+            "lf": 2
+        },
+        "maxCalls": 1,
+        "calls": [
+            "43",
+            "44",
+            "121"
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Katze auf Baum",
+        "fireValue": 500,
+        "credits": 1000,
+        "icon": "catOnTree",
+        "neededVehicles": {
+            "gw_tier_lf": 1,
+            "dlk_tmf": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "45",
+            "46"
+        ],
+        "achievements": [
+            5
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Baum droht zu fallen",
+        "fireValue": 500,
+        "credits": 1000,
+        "icon": "fallingTree",
+        "neededVehicles": {
+            "lf": 1,
+            "dlk_tmf": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "47",
+            "48"
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Zimmerbrand",
+        "fireValue": 800,
+        "credits": 1300,
+        "icon": "fire",
+        "neededVehicles": {
+            "lf": 2,
+            "dlk_tmf": 1,
+            "elw1_kdow": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "49",
+            "50",
+            "94"
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Motorradbrand",
+        "fireValue": 300,
+        "credits": 600,
+        "icon": "motorcycleFire",
+        "neededVehicles": {
+            "lf": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "51",
+            "52",
+            "53"
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Schornsteinbrand",
+        "fireValue": 800,
+        "credits": 1300,
+        "icon": "fire",
+        "neededVehicles": {
+            "lf": 2,
+            "dlk_tmf": 1,
+            "elw1_kdow": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "54",
+            "55",
+            "95",
+            "123"
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Brennender LKW",
+        "fireValue": 600,
+        "credits": 900,
+        "icon": "truckFire",
+        "neededVehicles": {
+            "lf": 2
+        },
+        "maxCalls": 1,
+        "calls": [
+            "56",
+            "57",
+            "58"
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Traktorbrand",
+        "fireValue": 400,
+        "credits": 700,
+        "icon": "tractorFire",
+        "neededVehicles": {
+            "lf": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "59",
+            "60",
+            "61",
+            "62",
+            "143"
+        ]
+    },
+    {
+        "id": 21,
+        "name": "Brennendes Laub",
+        "fireValue": 300,
+        "credits": 600,
+        "icon": "leavesFire",
+        "neededVehicles": {
+            "lf": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "63",
+            "64",
+            "65",
+            "66",
+            "67"
+        ]
+    },
+    {
+        "id": 22,
+        "name": "PKW in Graben",
+        "fireValue": 500,
+        "credits": 1000,
+        "icon": "carInDitch",
+        "neededVehicles": {
+            "lf": 1,
+            "rw_hlf": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "68",
+            "69",
+            "70"
+        ]
+    },
+    {
+        "id": 23,
+        "name": "Osterei nicht gefunden",
+        "fireValue": 300,
+        "credits": 1000,
+        "icon": "eventEaster",
+        "neededVehicles": {
+            "lf": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "71",
+            "72"
+        ],
+        "event": 0
+    },
+    {
+        "id": 24,
+        "name": "Osterhase steckt im Bau fest",
+        "fireValue": 300,
+        "credits": 1000,
+        "icon": "eventEaster",
+        "neededVehicles": {
+            "gw_tier_lf": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "73",
+            "74"
+        ],
+        "event": 0
+    },
+    {
+        "id": 25,
+        "name": "Osterei nicht gefunden",
+        "fireValue": 300,
+        "credits": 1000,
+        "icon": "eventEaster",
+        "neededVehicles": {
+            "lf": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "71",
+            "72"
+        ],
+        "event": 0
+    },
+    {
+        "id": 26,
+        "name": "Osterhase steckt im Bau fest",
+        "fireValue": 300,
+        "credits": 1000,
+        "icon": "eventEaster",
+        "neededVehicles": {
+            "gw_tier_lf": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "73",
+            "74"
+        ],
+        "event": 0
+    },
+    {
+        "id": 27,
+        "name": "Kleinflächenbrand",
+        "fireValue": 300,
+        "credits": 600,
+        "icon": "fire",
+        "neededVehicles": {
+            "lf": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "75",
+            "76",
+            "77"
+        ]
+    },
+    {
+        "id": 28,
+        "name": "Brennender Holzstapel",
+        "fireValue": 300,
+        "credits": 600,
+        "icon": "fire",
+        "neededVehicles": {
+            "lf": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "78",
+            "79",
+            "80",
+            "120"
+        ]
+    },
+    {
+        "id": 29,
+        "name": "Brand in Lagerhalle",
+        "fireValue": 1200,
+        "credits": 1700,
+        "icon": "fire",
+        "neededVehicles": {
+            "lf": 3,
+            "dlk_tmf": 1,
+            "elw1_kdow": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "82",
+            "83",
+            "84",
+            "115",
+            "116",
+            "117"
+        ]
+    },
+    {
+        "id": 30,
+        "name": "Reh in Zaun eingeklemmt",
+        "fireValue": 300,
+        "credits": 600,
+        "icon": "deerInFence",
+        "neededVehicles": {
+            "gw_tier_lf": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "85",
+            "86",
+            "87"
+        ],
+        "achievements": [
+            5
+        ]
+    },
+    {
+        "id": 31,
+        "name": "Brennendes Elektrogerät",
+        "fireValue": 200,
+        "credits": 500,
+        "icon": "electricalDeviceFire",
+        "neededVehicles": {
+            "lf": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "88",
+            "89",
+            "90",
+            "122"
+        ]
+    },
+    {
+        "id": 32,
+        "name": "Brennender Baum",
+        "fireValue": 300,
+        "credits": 600,
+        "icon": "treeFire",
+        "neededVehicles": {
+            "lf": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "91",
+            "92",
+            "93",
+            "119"
+        ]
+    },
+    {
+        "id": 33,
+        "name": "Brennende Garage",
+        "fireValue": 600,
+        "credits": 1200,
+        "icon": "fire",
+        "neededVehicles": {
+            "lf": 2,
+            "dlk_tmf": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "96",
+            "97",
+            "98"
+        ]
+    },
+    {
+        "id": 34,
+        "name": "LKW in Graben",
+        "fireValue": 1200,
+        "credits": 1700,
+        "icon": "truckInDitch",
+        "neededVehicles": {
+            "lf": 1,
+            "rw_hlf": 1,
+            "elw1_kdow": 1,
+            "dlk_tmf": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "99",
+            "100",
+            "114"
+        ]
+    },
+    {
+        "id": 35,
+        "name": "Balkonbrand",
+        "fireValue": 1000,
+        "credits": 1200,
+        "icon": "fire",
+        "neededVehicles": {
+            "lf": 2,
+            "elw1_kdow": 1,
+            "dlk_tmf": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "101",
+            "102",
+            "103"
+        ]
+    },
+    {
+        "id": 36,
+        "name": "Brennender Kürbis",
+        "fireValue": 300,
+        "credits": 1000,
+        "icon": "eventHalloween",
+        "neededVehicles": {
+            "lf": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "104",
+            "105"
+        ],
+        "event": 1
+    },
+    {
+        "id": 37,
+        "name": "Brennende Vogelscheuche",
+        "fireValue": 300,
+        "credits": 1000,
+        "icon": "eventHalloween",
+        "neededVehicles": {
+            "lf": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "106",
+            "107"
+        ],
+        "event": 1
+    },
+    {
+        "id": 38,
+        "name": "Brennendes Geisterschloss",
+        "fireValue": 1400,
+        "credits": 3000,
+        "icon": "eventHalloween",
+        "neededVehicles": {
+            "lf": 4,
+            "dlk_tmf": 1,
+            "elw1_kdow": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "108",
+            "109"
+        ],
+        "event": 1
+    },
+    {
+        "id": 39,
+        "name": "Brennende Hexenhütte",
+        "fireValue": 1000,
+        "credits": 2000,
+        "icon": "eventHalloween",
+        "neededVehicles": {
+            "lf": 2,
+            "dlk_tmf": 1,
+            "elw1_kdow": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "110",
+            "111"
+        ],
+        "event": 1
+    },
+    {
+        "id": 40,
+        "name": "Fledermaus in Wohnung",
+        "fireValue": 300,
+        "credits": 1000,
+        "icon": "eventHalloween",
+        "neededVehicles": {
+            "gw_tier_lf": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "112",
+            "113"
+        ],
+        "event": 1,
+        "achievements": [
+            5
+        ]
+    },
+    {
+        "id": 41,
+        "name": "Kleiner Feldbrand",
+        "fireValue": 350,
+        "credits": 600,
+        "icon": "fire",
+        "neededVehicles": {
+            "lf": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "124",
+            "125",
+            "126",
+            "127"
+        ]
+    },
+    {
+        "id": 42,
+        "name": "Mittlerer Feldbrand",
+        "fireValue": 600,
+        "credits": 1200,
+        "icon": "fire",
+        "neededVehicles": {
+            "lf": 2
+        },
+        "maxCalls": 1,
+        "calls": [
+            "140",
+            "141",
+            "142"
+        ]
+    },
+    {
+        "id": 43,
+        "name": "Kleiner Waldbrand",
+        "fireValue": 900,
+        "credits": 1800,
+        "icon": "treeFire",
+        "neededVehicles": {
+            "lf": 3
+        },
+        "maxCalls": 1,
+        "calls": [
+            "144",
+            "145",
+            "146"
+        ]
+    },
+    {
+        "id": 44,
+        "name": "Brennender Jägerhochsitz",
+        "fireValue": 300,
+        "credits": 600,
+        "icon": "fire",
+        "neededVehicles": {
+            "lf": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "147",
+            "148",
+            "149"
+        ]
+    },
+    {
+        "id": 45,
+        "name": "Brennender Erdgas-PKW",
+        "fireValue": 1000,
+        "credits": 1400,
+        "icon": "carFire",
+        "neededVehicles": {
+            "lf": 2,
+            "elw1_kdow": 1,
+            "gw_g": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "161",
+            "162",
+            "163"
+        ]
+    },
+    {
+        "id": 46,
+        "name": "Tankwagen verliert Benzin",
+        "fireValue": 1800,
+        "credits": 3500,
+        "icon": "tankTruckLosesFuel",
+        "neededVehicles": {
+            "lf": 3,
+            "tlf": 1,
+            "elw1_kdow": 2,
+            "gw_g": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "164",
+            "165",
+            "166"
+        ]
+    },
+    {
+        "id": 47,
+        "name": "Ratte in Gullideckel",
+        "fireValue": 300,
+        "credits": 600,
+        "icon": "rat",
+        "neededVehicles": {
+            "gw_tier_lf": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "151",
+            "152"
+        ],
+        "achievements": [
+            5
+        ]
+    },
+    {
+        "id": 48,
+        "name": "Schlange in Garten",
+        "fireValue": 300,
+        "credits": 600,
+        "icon": "snake",
+        "neededVehicles": {
+            "gw_tier_lf": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "155",
+            "156"
+        ],
+        "achievements": [
+            5
+        ]
+    },
+    {
+        "id": 49,
+        "name": "Schwan in Keller",
+        "fireValue": 300,
+        "credits": 600,
+        "icon": "swan",
+        "neededVehicles": {
+            "gw_tier_lf": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "153",
+            "154"
+        ],
+        "achievements": [
+            5
+        ]
+    },
+    {
+        "id": 50,
+        "name": "Fuchs auf Balkon",
+        "fireValue": 300,
+        "credits": 600,
+        "icon": "fox",
+        "neededVehicles": {
+            "gw_tier_lf": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "157",
+            "158"
+        ],
+        "achievements": [
+            5
+        ]
+    },
+    {
+        "id": 51,
+        "name": "Weihnachtsmann sitzt in Schornstein fest",
+        "fireValue": 600,
+        "credits": 1600,
+        "icon": "eventWinter",
+        "neededVehicles": {
+            "lf": 1,
+            "dlk_tmf": 1,
+            "rw_hlf": 1
+        },
+        "maxCalls": 1,
+        "event": 2,
+        "calls": [
+            "128",
+            "129",
+            "130"
+        ],
+        "achievements": [
+            7
+        ]
+    },
+    {
+        "id": 52,
+        "name": "Brennende Weihnachtsmarktbude",
+        "fireValue": 500,
+        "credits": 1200,
+        "icon": "eventWinter",
+        "neededVehicles": {
+            "lf": 2
+        },
+        "maxCalls": 1,
+        "event": 2,
+        "calls": [
+            "131",
+            "132"
+        ],
+        "achievements": [
+            7
+        ]
+    },
+    {
+        "id": 53,
+        "name": "Eiszapfen drohen zu fallen",
+        "fireValue": 600,
+        "credits": 1500,
+        "icon": "eventWinter",
+        "neededVehicles": {
+            "lf": 1,
+            "dlk_tmf": 1
+        },
+        "maxCalls": 1,
+        "event": 2,
+        "calls": [
+            "133",
+            "134"
+        ],
+        "achievements": [
+            7
+        ]
+    },
+    {
+        "id": 54,
+        "name": "Brennender Weihnachtsbaum",
+        "fireValue": 300,
+        "credits": 1000,
+        "icon": "eventWinter",
+        "neededVehicles": {
+            "lf": 1
+        },
+        "maxCalls": 1,
+        "event": 2,
+        "calls": [
+            "135",
+            "136"
+        ],
+        "achievements": [
+            7
+        ]
+    },
+    {
+        "id": 55,
+        "name": "Geschenke verloren",
+        "fireValue": 300,
+        "credits": 1000,
+        "icon": "eventWinter",
+        "neededVehicles": {
+            "lf": 1
+        },
+        "maxCalls": 1,
+        "event": 2,
+        "calls": [
+            "137",
+            "138"
+        ],
+        "achievements": [
+            7
+        ]
+    },
+    {
+        "id": 56,
+        "name": "Brennendes Geschenk",
+        "fireValue": 300,
+        "credits": 1000,
+        "icon": "eventWinter",
+        "neededVehicles": {
+            "lf": 1
+        },
+        "maxCalls": 1,
+        "event": 2,
+        "calls": [
+            "159",
+            "160"
+        ],
+        "achievements": [
+            7
+        ]
+    },
+    {
+        "id": 57,
+        "name": "Schwan im Eis",
+        "fireValue": 300,
+        "credits": 1000,
+        "icon": "eventWinter",
+        "neededVehicles": {
+            "gw_tier_lf": 1
+        },
+        "maxCalls": 1,
+        "event": 2,
+        "calls": [
+            "139",
+            "150"
+        ],
+        "achievements": [
+            5,
+            7
+        ]
+    },
+    {
+        "id": 58,
+        "name": "Brennende Marktbude",
+        "fireValue": 600,
+        "credits": 900,
+        "icon": "fire",
+        "neededVehicles": {
+            "lf": 2
+        },
+        "maxCalls": 1,
+        "calls": [
+            "167",
+            "168"
+        ]
+    },
+    {
+        "id": 59,
+        "name": "Brennende Müllsammelstelle",
+        "fireValue": 800,
+        "credits": 1100,
+        "icon": "fire",
+        "neededVehicles": {
+            "lf": 2,
+            "elw1_kdow": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "169",
+            "170",
+            "171"
+        ]
+    },
+    {
+        "id": 60,
+        "name": "Person in Toilette eingeschlossen",
+        "fireValue": 300,
+        "credits": 600,
+        "icon": "toilet",
+        "neededVehicles": {
+            "lf": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "172",
+            "173"
+        ]
+    },
+    {
+        "id": 61,
+        "name": "Brennender Frachtcontainer",
+        "fireValue": 800,
+        "credits": 1100,
+        "icon": "fire",
+        "neededVehicles": {
+            "lf": 2,
+            "elw1_kdow": 1
+        },
+        "maxCalls": 1,
+        "calls": [
+            "174",
+            "175",
+            "176"
+        ]
+    }
+]
