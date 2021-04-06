@@ -5,7 +5,7 @@
 // @description  Helle Map im DarkMode
 // @author       DispoOhnePlan
 // @match        https://rettungssimulator.online
-// @match        https://rettungssimulator.online/
+// @match        https://rettungssimulator.online/*
 // @grant        GM_addStyle
 // ==/UserScript==
 
