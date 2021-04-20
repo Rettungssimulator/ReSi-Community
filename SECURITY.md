@@ -6,19 +6,19 @@ We appreciate security reports for the following game versions
 
 | Game Version | Supported          |
 | ------- | ------------------ |
-| rettungssimulator.online   | :white_check_mark: |
-| beta.rettungssimulator.online   | :white_check_mark:              |
-| dev.rettungssimulator.online   | :white_check_mark: |
+| rettungssimulator.online   | :heavy_check_mark: |
+| beta.rettungssimulator.online   | :heavy_check_mark:              |
+| dev.rettungssimulator.online   | :x: |
 
 ## Report a secrity issue
 
 If you found a security issue, please send us an email to 
 
-**info(at)rettungssimulator.online** 
+**support(at)rettungssimulator.online** 
 
 with the Subject 
 
-**[SECURITY REPORT]**
+**[SECURITY]**
 
 Please describe what kind of security issue you found, where you found it and how you found it.
 
