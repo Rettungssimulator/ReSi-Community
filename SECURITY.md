@@ -25,4 +25,4 @@ Please describe what kind of security issue you found, where you found it and ho
 If you have ideas about what could happen with the vulnerability when not fixed, what could the reason for the vulnerability be 
 or even how to fix it, please let us know. 
 
-We will try to contact you back as fast as possible and keep you updated
+We will try to contact you back as fast as possible and keep you updated with our countermeasures
