@@ -2,7 +2,7 @@
 name: Fehlermeldung
 about: Hier kannst du Fehler melden
 title: ''
-labels: Fehler, Noch nicht bearbeitet
+labels: 🐞 Fehler, ⌚ Noch nicht bearbeitet
 assignees: ''
 
 ---
