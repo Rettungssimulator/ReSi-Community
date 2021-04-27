@@ -27,18 +27,18 @@ assignees: ''
 **Betriebssystem**
 *Welches Betriebssystem (Windows, Mac OS, Linux, ...) nutzt du?*
 
-- [ ] Windows
-- [ ] Mac OS
-- [ ] iOS
-- [ ] Linux
-* - [ ] Android
+- [ ] 🚪 Windows
+- [ ] 🍎 Mac OS
+- [ ] 🍎📱 iOS
+- [ ] 🤖 Linux
+- [ ] 🤖📱 Android
 
 **Browser**
 *Welchen Browser (Firefox, Chrome, Safari, ...) nutzt du du und in welcher Version?*
 
-- [ ] Chrome
-- [ ] Firefox
-- [ ] Safari
-- [ ] Opera
+- [ ] 🥎 Chrome
+- [ ] 🦊 Firefox
+- [ ] 🧭 Safari
+- [ ] ⭕ Opera
 
 **Sonstiges**
