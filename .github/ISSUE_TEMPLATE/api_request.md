@@ -2,7 +2,7 @@
 name: API Request
 about: Anfrage auf Einrichtung eines neuen API Endpunktes
 title: ''
-labels: API Request, Noch nicht bearbeitet
+labels: ❓ API Request, ⌚ Noch nicht bearbeitet
 assignees: ''
 
 ---
@@ -24,7 +24,7 @@ assignees: ''
 
 **Anfrage Parameter**
 *Welche Parameter sollen erwartet werden?*
-*[METHOD] parameterName=['values'] - (Optional J/N)*
+*[METHODE] parameterName=['values'] - (Optional J/N)*
 
 **Antwort Daten**
 *Welche Daten erhälst du als Antwort?*
