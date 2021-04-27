@@ -2,7 +2,7 @@
 name: API Fehler
 about: Fehler im Bezug auf die API
 title: ''
-labels: API Fehler, Noch nicht bearbeitet
+labels: 🐞 API Fehler, ⌚ Noch nicht bearbeitet
 assignees: ''
 
 ---
