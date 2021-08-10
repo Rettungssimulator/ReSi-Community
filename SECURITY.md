@@ -10,7 +10,7 @@ We appreciate security reports for the following game versions
 | beta.rettungssimulator.online   | :heavy_check_mark:              |
 | dev.rettungssimulator.online   | :x: |
 
-## Report a secrity issue
+## Report a security issue
 
 If you found a security issue, please send us an email to 
 
